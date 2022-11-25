@@ -1,7 +1,7 @@
 import urllib3.exceptions
 from bs4 import BeautifulSoup, SoupStrainer
 import requests
-from timeit import timeit
+from src.timeit import timeit
 import os
 from urllib.parse import unquote, urlparse
 from pathlib import PurePosixPath
